@@ -1,4 +1,4 @@
-# best-chess-by-wes
+# chess-by-wes
 
 A growing collection of original chess variants. The variants were
 dreamed up and play-tested together with my son Wesley (age 7).
