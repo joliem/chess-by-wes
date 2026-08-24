@@ -1,0 +1,16 @@
+{
+  "$schema": "../../node_modules/wrangler/config-schema.json",
+  "name": "chess-by-wes-supabase-heartbeat",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-08-23",
+  "triggers": {
+    "crons": ["15 0,8,16 * * *"]
+  },
+  "vars": {
+    "SUPABASE_URL": "https://zolzseqnysqasxijaxgq.supabase.co",
+    "SUPABASE_PUBLISHABLE_KEY": "sb_publishable_ZIS_szJtH1PT_29Cv3XBkw_CBIpKHwk"
+  },
+  "observability": {
+    "enabled": true
+  }
+}
